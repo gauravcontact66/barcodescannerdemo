@@ -1,0 +1,15 @@
+{
+    "name": "Barcode scanner app",
+    "description": "This app does one little thing, and does it well.",
+    "keywords": [
+      "barcode",
+      "HTML5",
+      "scanner"
+    ],
+    "repository": "https://github.com/gauravcontact66/barcodescanner_demo.git",
+    "buildpacks": [
+      {
+        "url": "https://github.com/stomita/heroku-buildpack-phantomjs"
+      }
+    ]    
+  }
