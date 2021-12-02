@@ -4,12 +4,12 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-	  <h1>Barcode Scanner</h1>
+    <h1>Barcode Scanner</h1>
     <div id="barcode">
       <video id="barcodevideo" autoplay></video>
       <canvas id="barcodecanvasg"></canvas>
     </div>
-    <canvas id="barcodecanvas"></canvas>    
+    <canvas id="barcodecanvas"></canvas>
     <div id="result"></div>
   </body>
   <script type="text/javascript" src="./jquery.js"></script>
@@ -24,8 +24,8 @@
       barcode.config.video = "#barcodevideo";
       barcode.config.canvas = "#barcodecanvas";
       barcode.config.canvasg = "#barcodecanvasg";
-      barcode.setHandler(function (barcode) {        
-        $('#result').html(barcode);
+      barcode.setHandler(function (barcode) {
+        $("#result").html(barcode);
       });
       barcode.init();
 
